@@ -11,5 +11,10 @@ public class JavaHelloWorldTest {
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
 
         assertEquals("Hello World", javaHelloWorld.getHello());
+
+        long expected = 5;
+        long actual = 5;
+        assertEquals(expected, actual);
+
     }
 }
