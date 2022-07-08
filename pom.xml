@@ -35,6 +35,7 @@
     <build>
         <plugins>
             <!-- Requires to add a specific version of surefire plugin to run Junit5 tests -->
+            <!-- 2.22.0 is the first version that included the support for Junit 5 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
