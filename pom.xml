@@ -24,6 +24,7 @@
         </dependency>
     </dependencies>
 
+    <!-- Can move to user settings in settings.xml -->
     <repositories>
         <repository>
             <id>redhat-ga</id>
