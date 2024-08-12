@@ -18,6 +18,7 @@
     </properties>
 
     <dependencies>
+        <!-- Required junit4 dependency to execute junit4 tests in Junit 5 -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
