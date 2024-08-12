@@ -36,6 +36,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- Required to execute Junit 3 and 4 in Junit 5 -->
         <dependency>
             <groupId>org.junit.vintage</groupId>
             <artifactId>junit-vintage-engine</artifactId>
